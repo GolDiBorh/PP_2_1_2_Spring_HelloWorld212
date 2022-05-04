@@ -1,4 +1,11 @@
 public class Cat {
+    public Cat(String message) {
+        this.message = message;
+    }
+    public Cat(){
+
+    }
+
     private String message;
 
     public String getMessage() {
